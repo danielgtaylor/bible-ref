@@ -1,0 +1,37 @@
+{
+  "name": "bible-ref",
+  "version": "1.0.0",
+  "description": "Utilitie for handling and normalizing Bible references",
+  "homepage": "https://github.com/danielgtaylor/bible-ref",
+  "main": "main.js",
+  "scripts": {
+    "pretest": "./node_modules/coffee-script/bin/coffee -c main.coffee",
+    "prepublish": "./node_modules/coffee-script/bin/coffee -c main.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielgtaylor/bible-ref"
+  },
+  "bugs": {
+    "url": "https://github.com/danielgtaylor/bible-ref/issues"
+  },
+  "keywords": [
+    "library",
+    "bible",
+    "reference",
+    "normalize"
+  ],
+  "author": {
+    "name": "Daniel G. Taylor",
+    "email": "danielgtaylor@gmail.com",
+    "url": "https://github.com/danielgtaylor"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": ">=1.6.2 <2"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
